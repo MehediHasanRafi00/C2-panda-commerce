@@ -3,6 +3,7 @@
 * {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
   margin: 0;
   padding: 0;
 }
@@ -131,6 +132,7 @@ nav {
 /* shoes and bag section */
 .shoes-bag-section {
   background: rgba(244, 244, 244, 1);
+  padding-bottom: 95px;
 }
 .shoes-backpack-section-title-parent {
   display: flex;
@@ -184,4 +186,40 @@ nav {
 .bag img {
   width: 290px;
   height: 290px;
+}
+
+/* contact us */
+.contact-us {
+  text-align: center;
+  padding: 146px 0;
+  background-color: rgba(255, 242, 241, 1);
+  margin: 75px auto;
+  border-radius: 15px;
+}
+.contact-us h2 {
+  color: #1f1f1f;
+  font-size: 30px;
+  font-weight: 600;
+}
+.contact-us p {
+  color: #707070;
+  margin-bottom: 16px;
+}
+
+.contac-inp-btn-parent {
+  display: flex;
+  justify-content: center;
+}
+.contac-inp-btn-parent input {
+  border: none;
+  padding: 22px 36px;
+  border-radius: 10px 0 0 10px;
+  min-width: 526px;
+  font-size: 24px;
+}
+.contac-inp-btn-parent .btn {
+  padding: 21px 48px;
+  font-size: 24px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
