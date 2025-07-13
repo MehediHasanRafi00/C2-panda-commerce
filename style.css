@@ -13,13 +13,20 @@
 }
 
 .btn {
-    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
-    padding: 14px 20px ;
-    font-weight: 500;
-    border-radius: 6px;
-    color: white;
-    border: none;
+  background: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
+  padding: 14px 20px;
+  font-weight: 500;
+  border-radius: 6px;
+  color: white;
+  border: none;
 }
+.common-section-title {
+  color: #1f1f1f;
+  font-size: 36px;
+  font-weight: 600;
+}
+
+
 /* Nav  */
 nav {
   display: flex;
@@ -88,4 +95,35 @@ nav {
   font-weight: 600;
   display: block;
   margin: 20px 0 10px 0;
+}
+
+/* category */
+.categories{
+    margin: 64px auto;
+}
+.categories-card-container {
+  display: flex;
+  gap: 26px;
+  width: 100%;
+}
+.category-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 46px;
+  border-radius: 10px;
+  flex: 1;
+}
+.category-card h3 {
+  color: #fff;
+  font-size: 36px;
+}
+.category-card:nth-child(1) {
+  background: linear-gradient(152deg, #ff9c35 1.47%, #ffd019 97.17%);
+}
+.category-card:nth-child(2) {
+  background: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
+}
+.category-card:nth-child(3) {
+  background: linear-gradient(170deg, #4289ff -10.89%, #3f07f8 92.77%);
 }
