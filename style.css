@@ -28,6 +28,28 @@
 }
 
 /* Nav  */
+.product-li {
+  position: relative;
+}
+.dropdown-nev-item {
+  position: absolute;
+  top: 30%;
+  left: -50px;
+  padding: 5px 0px;
+  list-style: none;
+  background-color: white;
+  width: 150px;
+  border-radius: 0 0 15px 15px;
+  text-align: center;
+  box-shadow: 3px 0px 20px 0px #1f1f1f4d;
+  visibility: hidden;
+}
+
+.product-li:hover .dropdown-nev-item {
+  visibility: visible;
+  transition: 0.5s;
+  top: 100%;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -163,6 +185,7 @@ nav {
   border-radius: 10px;
   text-align: center;
   padding: 24px;
+  box-shadow: 3px 0px 20px 0px #1f1f1f4d;
 }
 .shoes-card p {
   margin: 16px 0;
